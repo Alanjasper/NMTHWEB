@@ -100,3 +100,41 @@ body {
 #diachi::before { content: "\f015"; }      /* icon nhà */
 #numberphone::before { content: "\f095"; } /* icon điện thoại */
 #zalo::before { content: "\f3c1"; }        /* icon mobile */
+@media (max-width: 1024px) {
+  .card, .card2 {
+    flex-wrap: wrap;         /* Cho card tự xuống hàng */
+    gap: 20px;
+  }
+  .card-item {
+    width: 45%;              /* Mỗi hàng 2 cái */
+  }
+}
+
+@media (max-width: 600px) {
+  .modau-hotline {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  #logoheader, #hotlineheader {
+    margin: 5px auto;
+  }
+
+  .card, .card2 {
+    flex-direction: column;   /* Cho xuống hàng */
+    align-items: center;
+  }
+  .card-item {
+    width: 90%;              /* Full gần hết màn hình */
+  }
+
+  .end-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .end-box .logo img {
+    margin-bottom: 15px;
+  }
+}
