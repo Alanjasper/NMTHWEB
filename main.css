@@ -16,12 +16,6 @@ body {
 #logoheader {
     height: 70px;
 }
-#hotlineheader {
-    width: 30%;
-    margin-right: 10px;
-    height: auto;
-    margin-top: 15px;
-}
 
 /* Ảnh banner */
 #cardimg {
